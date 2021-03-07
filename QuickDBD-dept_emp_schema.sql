@@ -33,6 +33,7 @@ CREATE TABLE EMPLOYEES (
      )
 );
 
+-- These are in different order than the tables, but can update the order during the Postgres import process.
 CREATE TABLE DEPT_EMP (
     DEPT_NO VARCHAR   NOT NULL,
     EMP_NO INT   NOT NULL,
